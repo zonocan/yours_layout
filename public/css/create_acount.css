@@ -92,12 +92,12 @@ header{
   margin: 0;
 }
 
-.reviews {
-  width: 40%;
+.main {
+  width: 60%;
   margin: 0 auto;
 }
 
-.review {
+.content {
   margin: 100px 0 100px 0;
 }
 
@@ -223,7 +223,7 @@ input[type="file"] {
     margin:20px 0 20px 0;
   }
 
-  .reviews{
+  .main{
     width: 90%;
     margin: 20px auto;
   }

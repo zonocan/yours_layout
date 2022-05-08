@@ -114,12 +114,12 @@ header{
   margin: 100px 10% 100px 0;
 }
 
-.reviews {
-  width: 40%;
+.main {
+  width: 60%;
   margin: 0 auto;
 }
 
-.review {
+.content {
   margin: 100px 0 100px 0;
 }
 
@@ -209,15 +209,8 @@ header{
     color: #90000e;
   }
 
-  .user {
-    width: 100%;
-    margin: 0px 0 10px 0;
-  }
 
-  .review_file {
-    height: 150px;
-    width: 100%;
-  }
+
 
 }
 
@@ -230,7 +223,7 @@ header{
     margin:20px 0 20px 0;
   }
 
-  .reviews{
+  .main{
     width: 90%;
     margin: 20px auto;
   }
@@ -251,12 +244,12 @@ header{
 @media (max-width: 600px){
 
 
-  .reviews{
+  .main{
     width: 90%;
     margin: 20px auto;
   }
 
-  .review{
+  .content{
     width: 100%;
   }
 

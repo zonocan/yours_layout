@@ -97,7 +97,7 @@ header {
 
 /* ここまで(ヘッダー) */
 /* コンテイナー */
-.container {
+.main_contents {
   margin: 0;
 }
 
@@ -109,12 +109,12 @@ header {
   margin: 100px 10% 100px 0;
 }
 
-.reviews {
+.main {
   width: 60%;
-  margin: 0px 5% 0 30%;
+  margin: 0 auto;
 }
 
-.review {
+.content {
   margin: 100px 0 100px 0;
 }
 
@@ -130,10 +130,7 @@ header {
   background-color: black;
 }
 
-.review {
-  width: 70%;
-  margin: 100 auto;
-}
+
 
 input[type="file"] {
   display: none;
@@ -212,19 +209,7 @@ input[type="file"] {
   }
 
 
-  .user_name {
-    margin: auto;
-  }
 
-  .user {
-    width: 100%;
-    margin: 0px 0 10px 0;
-  }
-
-  .review_file {
-    height: 150px;
-    width: 100%;
-  }
 
 }
 
@@ -236,7 +221,7 @@ input[type="file"] {
     margin: 20px 0 20px 0;
   }
 
-  .reviews {
+  .main {
     width: 90%;
     margin: 20px auto;
   }
@@ -254,12 +239,12 @@ input[type="file"] {
 
 /* スマホの表示 */
 @media (max-width: 600px) {
-  .reviews {
+  .main{
     width: 90%;
     margin: 20px auto;
   }
 
-  .review {
+  .content{
     width: 100%;
   }
 }

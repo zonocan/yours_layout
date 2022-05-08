@@ -209,10 +209,39 @@ header {
   }
 
   .seller_profral_img {
-    height: 100px;
-    width: 25%;
+    height: 60px;
+    width: 20%;
     border-radius: 50%;
   }
+
+  .balloon {
+    width: 75%;
+    border: 10px solid #04e3d0;
+    position: relative;
+  }
+
+  .balloon::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    left: -30px;
+    top: 20px;
+    border-right: 20px solid #04e3d0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
+
+  .profeal_file {
+    height: 35px;
+    border-radius: 50%;
+  }
+
+  .h6 {
+    font-size: 25px;
+  }
+
 }
 
 /* スマホの表示 */

@@ -23,7 +23,7 @@
 
 <body>
   <header>
-    <div class="row">
+    <div class="row review_header_content">
       <div class="col-5 d-none  d-md-block d-flex p-0 left_side">
         <p class="h3 mx-3 mt-1">
           <!-- @の読み込み -->
@@ -75,6 +75,7 @@
           <strong>zonocan</strong>
         </p>
       </div>
+      <!-- 画像の投稿と異なる部分 -->
       <div class="col-3 d-md-none d-block">
         <button class="p-2" id="register_btn" type="submit">
           <strong>NEXT</strong>
@@ -82,7 +83,7 @@
       </div>
     </div>
   </header>
-  <div class="container-fluid d-flex p-0 main_contents">
+  <div class="container-fluid d-flex p-0 main_content">
     <!-- pcでのみ表示 -->
     <div class="row d-none d-md-block side_nav_btn"></div>
     <div class="row d-none  d-md-block p-0 side_nav_cover">
@@ -125,10 +126,10 @@
       </nav>
     </div>
     <!-- -->
-    <div class="row reviews">
-      <div class="row review">
+    <div class="row main">
+      <div class="row content">
         <form method="post" action="" class="" id="register_info_form">
-          <div class="mb-3">
+          <div class="row title">
             <!-- タイトル(商品名) -->
             <label class="form-label">タイトル(商品名)</label>
             <input type="name" class="form-control" id="name">
@@ -193,7 +194,7 @@
               <input class="form-check-input" type="checkbox">
             </div>
             <div class="form-check mx-2">
-              <label class="form-label">24cm~27cn</label>
+              <label class="form-label">24cm~27cm</label>
               <input class="form-check-input" type="checkbox">
             </div>
             <div class="form-check mx-2">

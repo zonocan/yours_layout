@@ -15,9 +15,6 @@
   position: fixed;
 }
 
-.side_nav_cover.none {
-  display: none;
-}
 
 .nav-link {
   color: white;

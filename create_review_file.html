@@ -24,7 +24,7 @@
 
 <body>
   <header>
-    <div class="row">
+    <div class="row review_header_content">
       <div class="col-5 d-none  d-md-block d-flex p-0 left_side">
         <p class="h3 mx-3 mt-1">
           <!-- @の読み込み -->
@@ -76,6 +76,7 @@
           <strong>zonocan</strong>
         </p>
       </div>
+      <!-- 投稿詳細と異なる部分 -->
       <div class="col-1 d-md-none d-block"></div>
       <div class="col-1 d-md-none d-block">
         <button class="p-2" id="register_btn" type="submit">
@@ -87,6 +88,7 @@
     </div>
   </header>
   <div class="container-fluid d-flex p-0 main_contents">
+    <div class="row">
     <!-- pcでのみ表示 -->
     <div class="row d-none d-md-block side_nav_btn"></div>
     <div class="row d-none d-md-block p-0 side_nav_cover">
@@ -129,11 +131,12 @@
       </nav>
     </div>
     <!-- -->
-    <div class="row reviews">
+    </div>
+    <div class="row main">
       <div class="row d-md-none d-block">
         <a href="index.html"></a>
       </div>
-      <div class="row review">
+      <div class="row content">
         <form method="post" action="" class="" id="register_file_form">
           <label class="review_files">
             <p class="h4 mx-4 mt-4">投稿画像</p>

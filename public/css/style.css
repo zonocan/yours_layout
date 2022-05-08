@@ -134,12 +134,12 @@ header{
   z-index: 1500;
 }
 
-.reviews {
+.main {
   width: 55%;
   margin: 0 auto;
 }
 
-.review {
+.content {
   border: solid 1px black;
   margin: 100px 0 100px 0;
 }
@@ -287,12 +287,12 @@ header{
 @media (max-width: 768px){
 
 
-  .reviews{
+  .main{
     width: 95%;
     margin: 20px auto;
   }
 
-  .review {
+  .content {
     border: solid 1px black;
     margin: 50px 0 50px 0;
   }
@@ -329,11 +329,11 @@ header{
 /* スマホの表示 */
 @media (max-width: 600px){
 
-  .reviews {
+  .main {
     flex-direction: column;
   }
 
-  .review{
+  .content {
     width: 100%;
   }
 
